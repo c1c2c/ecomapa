@@ -1,0 +1,491 @@
+*{
+    margin: 0 ;
+    padding: 0;
+     box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+/*ESTILOS MENU HAMBURGUESA*/
+
+
+.logotop {
+    position: absolute;
+    padding: 20px; 
+   
+    
+}
+
+.header {
+    padding: 3rem 0;
+    background: rgba(239, 239, 239,0.3);
+    color: #fff;
+    display: flex;
+  
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.header label{
+    margin: 0px 0px 0px 1250px;
+    font-size: 40px;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    
+}
+
+
+/*Estilos para menu*/
+
+#btn-menu {
+    display: none;
+
+}
+
+
+.menu {
+    position: absolute;
+    top: 220px;
+    left: 0;
+    width: 25%;
+transform: translateX(400%);
+    transition: all 0.3s;
+    justify-content: flex-end;
+}
+
+
+.menu ul {
+    background: #fff;
+    display: block;
+    list-style: none;
+}
+
+.menu ul ul {
+    display: none;
+    background: rgba(0,0,0,0.04);
+}
+
+.menu ul ul a{
+    padding: 15px 50px;
+    color: #A7DAEC;
+}
+
+.menu a {
+    display: block;
+    padding: 15px 20px;
+    color: #183C57;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: rgba(0,0,0,0.07);
+}
+
+.menu a span {
+    margin-left: 10px;
+    position: absolute;
+    right: 5px;
+}
+
+.menu ul li:hover ul {
+    display: none;
+    position: static;
+}
+
+#btn-menu:checked ~ .menu {
+    transform: translateX(300%);
+}
+.btn-menu { 
+    margin: 0 0 0 50px;
+
+
+}
+.main {
+    padding-top: 10rem;
+}
+
+
+
+/*ESTILOS INDEX*/
+
+
+.logo {
+    
+    position: relative;
+    margin: 0 0 0 50px;
+}
+
+.slogan{
+    
+    margin: 120px 0px 200px 500px;
+    position: absolute;
+    font-size: 26px
+
+}
+
+
+.quienes-somos{
+  width: 500px;
+    position: absolute;
+    font-size: 12px;
+    margin: 0 0 0 100px;   
+}
+
+.foto-qs{
+   
+    margin: 0 0 0 800px; 
+}
+
+
+.mision{
+  width: 500px;
+    position: absolute;
+    font-size: 12px;
+    margin: 0 0 0 800px;   
+}
+
+.foto-m{
+   
+    margin: 0 0 0 100px; 
+}
+
+.vision{
+  width: 500px;
+    position: absolute;
+    font-size: 12px;
+    margin: 0 0 0 100px;   
+}
+
+.foto-v{
+   
+    margin: 0 0 0 800px; 
+}
+
+.imgportada{
+    position: ;
+}
+.textounete{
+    position: absolute;
+    margin: 250px 0 0 150px;
+    font-size: 35px;
+    color: white
+}
+
+#cuadrado{
+    width: 380px;
+    height: 90px;
+    background: rgba(255, 119, 2, 0.65);
+    border-radius: 10px 10px 10px 10px;
+    top: 33%;
+    position: absolute;
+    margin: 0% 0 0 60%;
+    top: 145px;
+    
+    }
+
+#cuadrado2{
+    width: 380px;
+    height: 260px;
+    background: rgba(255, 119, 2, 0.65);
+    border-radius: 10px 10px 10px 10px;
+position: absolute;
+    margin: 247px 0 0 60%;
+    }
+
+.formulario{
+    position: absolute;
+    margin: 145px 0 0 830px;
+    color: white;
+   
+}
+
+.formulario h2{
+    color: white;
+    font-size: 35px;
+    
+}
+
+.box  {
+    
+    text-decoration: none
+}
+
+/*estilos destinos*/
+
+#cuadro1{
+    width: 250px;
+    height: 350px;
+   background: #00719D;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    margin: 200px 0 0 110px
+    }
+
+#cuadro2{
+    width: 250px;
+    height: 350px;
+    background: #00719D;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    margin: 200px 0 0 410px;
+
+    }
+
+#cuadro3{
+    width: 250px;
+    height: 350px;
+    background: #00719D;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    margin: 200px 0 0 700px
+    }
+
+#cuadro4{
+    width: 250px;
+    height: 350px;
+    background: #00719D;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    margin: 200px 0 0 1000px
+    }
+
+.im1{
+    position: absolute;
+    margin: 250px 0 0 135px;   
+}
+
+.im2{
+    position: absolute;
+    margin: 250px 0 0 435px;   
+}
+
+.im3{
+    position: absolute;
+    margin: 250px 0 0 725px;   
+}
+
+.im4{
+    position: absolute;
+    margin: 250px 0 0 1025px;   
+}
+
+.titulo1{
+    position: absolute;
+    margin: 450px 0 0 117px;
+    text-align: center;
+    font-size: 14.5px;
+    color: white;
+}
+
+.titulo2{
+    position: absolute;
+    margin: 450px 0 0 425px;
+    text-align: center;
+    font-size: 14.5px;
+    color: white;
+}
+
+.titulo3{
+    position: absolute;
+    margin: 450px 0 0 730px;
+    text-align: center;
+    font-size: 14.5px;
+    color: white;
+}
+
+.titulo4{
+    position: absolute;
+    margin: 450px 0 0 1030px;
+    text-align: center;
+    font-size: 14.5px;
+    color: white;
+}
+
+
+/*Estilos mapas*/
+
+.mapapiedras{
+    margin: 140px 0 0 100px;
+    position: absolute;
+}
+
+.mapspiedras{
+    position: absolute;
+    margin:410px 0 0 660px;
+}
+
+.titulopiedras{
+    position: absolute;
+    margin: 150px 0 0 660px;
+    color: #2B9B38; 
+}
+
+.textopiedras{
+    position: absolute;
+    margin: 250px 0 0 660px;
+    color: #183c57;
+    width: 600px;
+    
+}
+
+
+
+.mapahato{
+    margin: 140px 0 0 100px;
+    position: absolute;
+}
+
+.mapshato{
+    position: absolute;
+    margin:430px 0 0 660px;
+}
+
+.titulohato{
+    position: absolute;
+    margin: 150px 0 0 660px;
+    color: #2B9B38; 
+}
+
+.textohato{
+    position: absolute;
+    margin: 250px 0 0 660px;
+    color: #183c57;
+    width: 600px;
+}
+
+
+
+
+.mapachingaza{
+    margin: 140px 0 0 100px;
+    position: absolute;
+}
+
+.mapschingaza{
+    position: absolute;
+    margin:410px 0 0 660px;
+}
+
+.titulochingaza{
+    position: absolute;
+    margin: 150px 0 0 660px;
+    color: #2B9B38; 
+}
+
+.textochingaza{
+    position: absolute;
+    margin: 250px 0 0 660px;
+    color: #183c57;
+    width: 600px;
+}
+
+
+
+.mapanevados{
+    margin: 140px 0 0 100px;
+    position: absolute;
+}
+
+.mapsnevados{
+    position: absolute;
+    margin:410px 0 0 660px;
+}
+
+.titulonevados{
+    position: absolute;
+    margin: 150px 0 0 660px;
+    color: #2B9B38; 
+}
+
+.textonevados{
+    position: absolute;
+    margin: 250px 0 0 660px;
+    color: #183c57;
+    width: 600px;
+}
+
+
+
+
+/*Estilos para footer responsive*/
+
+.footer-bottom{
+  
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background: #00719D;
+   position: relative;
+    margin-top: ;
+    height: 100%;
+   
+}
+
+.footer-d{
+     justify-content: center;
+    text-align: center;
+    color: #fff;
+    background: #00719D;
+    position: relative;
+}
+
+/*imagen de fondo*/
+
+.pt{
+     position: absolute;
+    margin: 150px 0 0 660px;
+    color: #2B9B38; 
+    
+}
+
+.textop{
+    position: absolute;
+    margin: 250px 0 0 660px;
+    color: #183c57;
+    width: 600px;
+     font-size: 12px;
+}
+
+
+.pt-2{
+     position: absolute;
+    margin: 380px 0 0 660px;
+    color: #2B9B38; 
+    
+}
+
+.textop-2{
+    position: absolute;
+    margin: 470px 0 100px 660px;
+    color: #183c57;
+    width: 700px;
+     font-size: 12px;
+}
+
+
+
+.pt-3{
+   position: absolute;
+    margin: 520px 0 0 660px;
+    color: #2B9B38; 
+    
+}
+
+.textop-3{
+    position: absolute;
+    margin: 650px 0 0 660px;
+    color: #183c57;
+    width: 600px;
+     font-size: 12px;
+}
+
+   
+}
+
+
+
+
+
